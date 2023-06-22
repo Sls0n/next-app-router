@@ -1,10 +1,8 @@
-export default function Home() {
+export default function AboutMe() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-6xl font-bold text-center">
-          Learning Next app router
-        </h1>
+        <h1 className="text-6xl font-bold text-center">Nested about route</h1>
       </div>
     </main>
   );
